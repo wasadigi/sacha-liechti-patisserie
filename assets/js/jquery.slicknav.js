@@ -355,7 +355,6 @@
         var $this = this;
         var btn = $this.btn;
         var mobileNav = $this.mobileNav;
-        debugger;
 
         if (btn.hasClass(prefix+'_collapsed')) {
             btn.removeClass(prefix+'_collapsed');
@@ -402,7 +401,6 @@
 
     // toggle actual visibility and accessibility tags
     Plugin.prototype._visibilityToggle = function(el, parent, animate, trigger, init) {
-        debugger;
         var $this = this;
         var settings = $this.settings;
         var items = $this._getActionItems(el);
@@ -422,7 +420,6 @@
         }
         
         function afterClose(trigger, parent) {
-            debugger;
             el.attr('aria-hidden','true');
             items.attr('tabindex', '-1');
             $this._setVisAttr(el, true);
