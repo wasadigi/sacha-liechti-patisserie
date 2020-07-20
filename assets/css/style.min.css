@@ -6228,7 +6228,7 @@ only screen and (min-width:1200px) {
 }
 
 .call-to-action-content--business {
-    height: 200px;
+    /* height: 200px; */
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
